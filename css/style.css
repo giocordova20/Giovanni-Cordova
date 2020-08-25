@@ -1,5 +1,7 @@
 body {
     background-color: #aaafa6;
+    background-image: url("./img/rav.jpg");
+
 }
 .header {
     padding: 20px;
@@ -35,11 +37,18 @@ body {
     margin-left: 25px;
 }
 
-.backgroun-image {
-    height: 800px;
+.bgimage {
+    /* height: 800px; */
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("./img/rva.img");
     background-size: cover;
     background-position: center;
+}
+
+.about-img {
+    float: left;
+    height: 250px;
+    width: 300px;
+    margin: 0 auto;
 }
