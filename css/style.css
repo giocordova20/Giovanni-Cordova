@@ -1,6 +1,6 @@
 body {
-    background-color: #aaafa6;
-    background-image: url("./img/rav.jpg");
+background-image: url("../images/rva.jpg");
+    background-color: #dce0d8;
 
 }
 .header {
@@ -12,18 +12,19 @@ body {
     color: #ffffff;
 }
 
-.header h1 {
+.navbar .navbar-brand {
+    color: white;
+    font-family: 'Playfair Display' ;
+    font-size: 150%;
+    font-weight: 900;
+    background-color: rgb(126, 197, 157);
+}
+
+
+/* .header h1 {
     display: inline-block;
     font-size: 30pxpx;
     background-color: blue;
-}
-
-.header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
 }
 
 .header nav ul{
@@ -35,18 +36,13 @@ body {
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
-}
+} */
 
-.bgimage {
-    /* height: 800px; */
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("./img/rva.img");
-    background-size: cover;
-    background-position: center;
+.about-me {
+    margin: 0 auto;
+    padding-left: 10%;
 }
-
-.about-img {
+.about-image {
     float: left;
     height: 250px;
     width: 300px;
