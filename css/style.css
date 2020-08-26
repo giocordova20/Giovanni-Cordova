@@ -17,7 +17,7 @@ background-image: url("../images/rva.jpg");
     font-family: 'Unna' ;
     font-size: 150%;
     font-weight: 900;
-    background-color: rgb(126, 197, 157);
+    background-color: rgb(103, 182, 137);
 }
 
 .left {
@@ -29,13 +29,15 @@ background-image: url("../images/rva.jpg");
     margin-left: 3%;
     margin-top: 90px;
     padding-left: 3%;
-    width: 75%;
+    width: 60%;
     background-color: white;
     font-family: 'Unna' ;
 }
 
 h2 {
     text-align: left;
+    padding-top: 30px;
+    color: rgb(103, 182, 137);
 }
 .about-image {
     float: left;
