@@ -14,7 +14,7 @@ background-image: url("../images/rva.jpg");
 
 .navbar .navbar-brand {
     color: white;
-    font-family: 'Playfair Display' ;
+    font-family: 'Unna' ;
     font-size: 150%;
     font-weight: 900;
     background-color: rgb(126, 197, 157);
@@ -26,11 +26,16 @@ background-image: url("../images/rva.jpg");
 }
 
 .about-me {
-    margin: 0 auto;
+    margin-left: 3%;
     margin-top: 90px;
     padding-left: 3%;
     width: 75%;
     background-color: white;
+    font-family: 'Unna' ;
+}
+
+h2 {
+    text-align: left;
 }
 .about-image {
     float: left;
