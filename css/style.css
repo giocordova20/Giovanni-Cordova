@@ -1,13 +1,17 @@
 body {
-background-image: url("../images/rva.jpg");
-    background-color: #dce0d8;
+    background-image: url("../images/rva.jpg");
+    /* background-color: #dce0d8; */
+    /* height: 100%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 
 }
 .header {
     padding: 20px;
     padding-top: 5px;
     padding-bottom: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: white;
     color: #ffffff;
 }
@@ -28,21 +32,39 @@ background-image: url("../images/rva.jpg");
 .about-me {
     margin-left: 3%;
     margin-top: 90px;
-    padding-left: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 3%;
     width: 60%;
+    opacity: 1;
     background-color: white;
-    font-family: 'Unna' ;
+    font-family: 'DM+Serif+Text' ;
 }
 
 h2 {
     text-align: left;
     padding-top: 30px;
     color: rgb(103, 182, 137);
+    font-size: xxx-large;
 }
+
 .about-image {
     float: left;
-    height: 250px;
-    width: 300px;
+    height: 230px;
+    width: 180px;
     margin-right: 20px;
-/*     margin: 0 auto;
- */}
+}
+.about-text p{
+    font-stretch: expanded;
+    font-family:'Arial' ;
+}
+
+footer {
+    color: lightgray;
+    background-color: rgb(128, 126, 126);
+    height:50px;
+    clear: both;
+    padding: 19px 0 49px;
+    margin-top: 4%;
+    text-align: center;
+}
