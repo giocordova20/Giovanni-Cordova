@@ -32,15 +32,15 @@ body {
     padding: 0 10px 0 0;
 }
 
-.about-me, .portfolio{
-    margin-left: 3%;
+.about-me, .portfolio, .contact{
+    margin-left: 2%;
     margin-top: 10%;
+    margin-bottom: 10%;
     padding-left: 2%;
     padding-right: 2%;
     padding-bottom: 3%;
     width: 60%;
     float: left;
-/*     position: inherit; */
     background-color: white;
     font-family: 'DM+Serif+Text' ;
 }
@@ -58,11 +58,11 @@ h2 {
     width: 180px;
     margin-right: 20px;
 }
-.about-text p{
-    font-stretch: expanded;
+.about-text, p, .contact{
     font-family:'Arial' ;
 }
 
+/* Set footer properties */
 footer {
     color: lightgray;
     background-color: rgb(128, 126, 126);
@@ -76,11 +76,15 @@ footer {
 }
 
 /* Portfolio */
-
 .portgrid {
     width: auto;
-    background-color: lawngreen;
     margin: auto;
+}
 
-
+/* Contact */
+/* Set the Submit button background color and sqaure the edges */
+.btn-primary{
+    background-color: rgb(103, 182, 137);
+    border:rgb(103, 182, 137);
+    border-radius: 0;
 }
