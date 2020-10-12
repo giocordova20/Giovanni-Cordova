@@ -1,0 +1,62 @@
+body {
+    background-image: url("../images/rva2.jpg");
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+aside {
+    float: left;
+  }
+
+#intro, #mywork-jumbo, #work {
+    background: rgb(233, 236, 239, .6);
+
+}
+.list-group-item {
+    background: rgb(233, 236, 239, 0);
+
+}
+
+.list-group-item {
+    border: 0;
+}
+
+.list-group-item-action {
+    background: rgb(233, 236, 239, 0);
+}
+
+#icon {
+    background: ;
+}
+
+
+
+
+
+
+@media (max-width: 992px){
+
+    #intro {
+        background: rgb(233, 236, 239, .8);
+    }
+    
+    .lead {
+        /* color: white !important; */
+        font-size: 10 !important;
+    }    
+
+    footer {
+        background-color: blue !important;
+    }
+}
+
+@media (max-width: 768px){
+    .display-4 {
+        font-size: 2.0rem;
+    }
+    .lead {
+        font-size: 1.1rem;
+    }
+}

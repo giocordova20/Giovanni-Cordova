@@ -1,87 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Giovanni Cordova</title>
-    <!-- Title of the page -->
 
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous" >
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display"
-    />
-  </head>
-
-  <body>
-    <header class="header">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Giovanni Cordova</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-          aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active"><a class="nav-link" href="#">About<span class="sr-only">(current)</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
-            <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-
-  
-    </header>
-
-    <main class="content">
-      <section class="about-me">
-        <h2>About Me</h2>
-        <hr />
-        <section class="about-text">
-          <img src="./images/gio.jpg" class="about-image left img-fluid" />
-          <p>
-            I am a Software QA Engineer that is looking to move into Software Development. I have
-            worked in QA for over 18 years and have experience with the Software Development Life 
-            Cycle. In my career, I have performed backend and front end testing. I am experienced 
-            in analyzing application requirements, developing a testing plan to thoroughly test 
-            new functionality, and verifying integration to exiting systems and processes. 
-          </p>
-        </section>
-        <section class="about-text">
-          <p>
-            I am currently enrolled in the University of Richmond's Full Stack Web Developer program. 
-            The program covers: HTML5, CSS3, JavaScript, jQuery, Express.js, React.js, Node.js, 
-            progressive web apps, agile methodology, computer science, database theory, MongoDB, MySQL, 
-            Git. I am seeking to increase my knowldge of the SDLC by learning the development side of 
-            things.
-          </p>
-        </section>
-
-        <!-- Social links -->
-        <div class="container social">
-            <div class="row">
-              <div class="col-sm">
-                <img src="images/linkedin.png" alt="LinkedIn"> <a href="https://www.linkedin.com/in/giovanni-cordova-aa40b94/" target="_blank">  LinkedIn</a>
-              </div>
-              <div class="col-sm">
-                <img src="images/github.png" alt="GitHub"><a href="https://github.com/giocordova20" target="_blank">  GitHub  </a> 
-              </div>
-            </div>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style2.css">
+</head>
+<body>
+    <aside>
+        <div class="col list-group mt-5" id="nav-side">
+            <a href="#" class="list-group-item list-group-item-action">About Me</a>
+            <a href="./mywork.html" class="list-group-item list-group-item-action">My Work</a>
+            <a href="https://github.com/giocordova20" target="_blank" class="list-group-item list-group-item-action"><img src="./images/github2.png" alt="GitHub" class="icon"> GitHub</a>
+            <a href="https://www.linkedin.com/in/giovanni-cordova-aa40b94/" target="_blank" class="list-group-item list-group-item-action"><img src="./images/linkedin.png" alt="LinkedIn" class="icon"> LinkedIn</a>
           </div>
-                      
+        </aside>
+    
+    <main class="container">
 
+        <div class="row">
+            <div class="col mt-4">
+                <div class="jumbotron" id="intro">
+                <h1 class="display-5">Giovanni Cordova</h1>
+                <p class="lead">I am a Software QA Engineer looking to move into Software Development. I have
+                    worked in QA for over 18 years and have experience with the Software Development Life 
+                    Cycle. In my career, I have performed backend and front end testing. I am experienced 
+                    in analyzing complex application requirements, developing a test plan for new functionality, 
+                    and verifying integration to exiting systems and processes. </p>
+                <!-- <hr class="my-2">
+                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p> -->
 
-
+              </div>
+          </div>
         </div>
 
-      </section>
-    </main>
-    <footer>
-      <p>© Copyright</p>
-    </footer>
-  </body>
+
+
+
+    </main>  
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
 </html>
