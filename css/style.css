@@ -1,19 +1,26 @@
-body {
-    background-image: url("../images/rva2.jpg");
+/* body { */
+    /* background-image: url("../images/rva2.jpg"); */
     /* background-position: center; */
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* position: relative; */
+/* } */
 
 aside {
     float: left;
   }
 
-#intro, #mywork-jumbo {
+#intro {
     background: rgb(233, 236, 239, .6);
 
 }
+
+#mywork-jumbo {
+    background: rgb(233, 236, 239, 0);
+    margin-bottom: 0px;
+
+}
+
 .list-group-item {
     background: rgb(233, 236, 239, 0);
 
@@ -27,10 +34,6 @@ aside {
 .list-group-item-action {
     background: rgb(233, 236, 239, 0);
 }
-
-/* #icon {
-    background: ;
-} */
 
 
 
