@@ -17,6 +17,9 @@
   "bugs": {
     "url": "https://github.com/giocordova20/Portfolio/issues"
   },
+  "engines": {
+    "node": "10.x"
+  },
   "homepage": "https://github.com/giocordova20/Portfolio#readme",
   "dependencies": {
     "express": "^4.17.1",
