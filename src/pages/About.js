@@ -7,8 +7,9 @@ import Col from 'react-bootstrap/Col'
 // import AboutImage from "../assets/images/rva2.jpg"
 
 import resume from "../assets/images/pdf-icon.jpg";
-import gmail from "../assets/images/pdf-icon.jpg";
-import linkedin from "../assets/images/pdf-icon.jpg";
+import gmail from "../assets/images/gmail.png";
+import mobile from "../assets/images/mobile-icon.jpg";
+// import linkedin from "../assets/images/linkedin.png";
 
 
 function About (){
@@ -39,10 +40,10 @@ function About (){
                                 <img src={resume} alt="resume-icon" style={{ width: "17px" }}></img><a href="https://drive.google.com/file/d/1tiARhhMdppS4VwS2epviU4Ju1c7SdtD1/view?usp=sharingquiz" target="_blank" rel="noreferrer"> Resume</a>
                             </Col>
                             <Col className="sm">
-                                <img src={gmail}  alt="resume" style={{ width: "15px" }}></img><h6> giocordova@gmail.com</h6>
+                                <h6><img src={gmail}  alt="resume" style={{ width: "15px" }}></img> giocordova@gmail.com</h6>
                             </Col>
                             <Col className="sm">
-                                <img src={linkedin} alt="mobile-icon" style={{ width: "8px"}}></img><h6> 703-201-6923</h6> 
+                                <h6><img src={mobile} alt="mobile-icon" style={{ width: "8px"}}></img> 703-201-6923</h6> 
                             </Col>
 
                         </Row>
