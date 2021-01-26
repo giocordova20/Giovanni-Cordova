@@ -16,17 +16,6 @@ function About (){
     return (
         <Container >
             <Row>
-                {/* <Nav className="justify-content-center" activeKey="/home">
-                    <Nav.Item>
-                    <Nav.Link href="/MyWork">My Work</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                    <Nav.Link eventKey="GitHub">GitHub</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                    <Nav.Link eventKey="LinkedIn">LinkedIn</Nav.Link>
-                    </Nav.Item>
-                </Nav> */}
                 <Header className="animate__animated animate__fadeIn" id="intro">
                     <h1 className="display-5">Giovanni Cordova</h1>
                     <p className="lead">I'm a Software QA Engineer looking to move into Software Development. I have
@@ -45,7 +34,6 @@ function About (){
                             <Col className="sm">
                                 <h6><img src={mobile} alt="mobile-icon" style={{ width: "8px"}}></img> 703-201-6923</h6> 
                             </Col>
-
                         </Row>
                 </Header>
             </Row>

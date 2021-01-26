@@ -10,29 +10,18 @@ function MyWork (props){
     return (
         <Container >
             <Row>
-                {/* <Nav className="justify-content-center" activeKey="/home">
-                    <Nav.Item>
-                    <Nav.Link href="/My Work">My Work</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                    <Nav.Link eventKey="GitHub">GitHub</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                    <Nav.Link eventKey="LinkedIn">LinkedIn</Nav.Link>
-                    </Nav.Item>
-                </Nav> */}
-                <Header className="animate__animated animate__fadeIn" id="intro">
+                <Header className="animate__animated animate__fadeIn" id="mywork-jumbo" style={{background: "none"}}>
                     <h1 className="display-5">My Work</h1>
                     <p className="lead">Take a look at some of my work. These applications show individual work as well as group projects.</p>
-                        <Row className="justify-content-center">
-                            <Col className="sm">
-                                <img src="../assets/pdf-icon.jpg" alt="resume-icon" style={{ width: "17px" }}></img><a href="https://drive.google.com/file/d/1tiARhhMdppS4VwS2epviU4Ju1c7SdtD1/view?usp=sharingquiz" target="_blank" rel="noreferrer"> Resume</a>
+                        <Row className="justify-content-md-center">
+                            <Col >
+                                <a href="/" className="btn btn-outline-dark my-2">About Me</a>
+                            </Col >
+                            <Col >
+                                <a href="https://github.com/giocordova20" target="_blank" rel="noreferrer" className="btn btn-outline-dark my-2">GitHub</a>
                             </Col>
-                            <Col className="sm">
-                                <img src="../assets/pdf-icon.jpg" alt="resume" style={{ width: "15px" }}></img><h6> giocordova@gmail.com</h6>
-                            </Col>
-                            <Col className="sm">
-                                <img src="../assets/images/mobile-icon.jpg" alt="mobile-icon" style={{ width: "8px"}}></img><h6> 703-201-6923</h6> 
+                            <Col >
+                            <a href="https://www.linkedin.com/in/giovanni-cordova-aa40b94/" rel="noreferrer" target="_blank" className="btn btn-outline-dark my-2">LinkedIn</a>
                             </Col>
 
                         </Row>

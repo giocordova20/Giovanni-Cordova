@@ -5,7 +5,7 @@ import "./style.css"
 
 function Header(props) {
   return (
-      <Jumbotron className="animate__animated animate__fadeIn" id="intro">
+      <Jumbotron className="animate__animated animate__fadeIn">
           {props.children}
       </Jumbotron>
 

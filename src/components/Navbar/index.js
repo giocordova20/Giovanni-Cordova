@@ -5,9 +5,11 @@ import { Link } from "react-router-dom";
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar() {
 
-    const [aboutWork, setAboutWork] = useState("");
+    // const [aboutWorkLink, setAboutWork] = useState("");
+    const [aboutWorkLink, setAboutWork] = useState({ path: "", label: ""});
+    const [aboutWorkTitle, setAboutWorkTitle] = useState("");
 
-
+ 
     // function AboutWorkLink (){
     //     if (window.location.pathname === "/"){
     //         return "/mywork"
@@ -24,13 +26,14 @@ function Navbar() {
       <div>
         <ul className="navbar-nav">
           <li className="nav-item"
-               onClick={() => setAboutWork()} > 
+            //    onClick={() => setAboutWork(window.location.pathname === "/" ? "mywork" : "/")} > 
+               onClick={() => setAboutWork(window.location.pathname === "/" ? "mywork" : "/")} > 
             <Link
-              to=""
-              className={ window.location.pathname === "/" || window.location.pathname === "/about" ? "nav-link active" : "nav-link"
-              }
+              to={aboutWorkLink}
+            //   className={ window.location.pathname === "/" || window.location.pathname === "/about" ? "nav-link active" : "nav-link"}
             >
-              My Work
+              {/* My Work */}
+              {window.location.pathname === "/" ? "My Work" : "About Me"}
             </Link>
           </li>
           <li className="nav-item">
