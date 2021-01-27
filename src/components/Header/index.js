@@ -5,13 +5,9 @@ import "./style.css"
 
 function Header(props) {
   return (
-      <Jumbotron className="animate__animated animate__fadeIn">
+      <Jumbotron className="animate__animated animate__fadeIn" style={{ background: "rgb(233, 236, 239, .6)", marginTop: "2rem"}}>
           {props.children}
       </Jumbotron>
-
-    // <div className="hero text-center" style={{ backgroundImage: `url(${props.backgroundImage})` }}>
-    //   {props.children}
-    // </div>
   );
 }
 

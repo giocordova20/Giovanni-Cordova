@@ -1,10 +1,10 @@
 import React from "react";
 import Header from "../components/Header";
 import Container from "../components/Container";
-import Row from '../components/Row';
-import Col from 'react-bootstrap/Col'
+import Row from "../components/Row";
+import Col from "react-bootstrap/Col"
 // import Nav from 'react-bootstrap/Nav'
-// import 
+import Nav from "../components/Navbar"
 
 function MyWork (props){
     return (
@@ -14,16 +14,16 @@ function MyWork (props){
                     <h1 className="display-5">My Work</h1>
                     <p className="lead">Take a look at some of my work. These applications show individual work as well as group projects.</p>
                         <Row className="justify-content-md-center">
-                            <Col >
+                            {/* <Col >
                                 <a href="/" className="btn btn-outline-dark my-2">About Me</a>
                             </Col >
                             <Col >
                                 <a href="https://github.com/giocordova20" target="_blank" rel="noreferrer" className="btn btn-outline-dark my-2">GitHub</a>
                             </Col>
                             <Col >
-                            <a href="https://www.linkedin.com/in/giovanni-cordova-aa40b94/" rel="noreferrer" target="_blank" className="btn btn-outline-dark my-2">LinkedIn</a>
-                            </Col>
-
+                                <a href="https://www.linkedin.com/in/giovanni-cordova-aa40b94/" rel="noreferrer" target="_blank" className="btn btn-outline-dark my-2">LinkedIn</a>
+                            </Col> */}
+                            <Nav />
                         </Row>
                 </Header>
             </Row>

@@ -1,21 +1,26 @@
 import React from "react";
 import Header from "../components/Header";
 import Container from "../components/Container";
-import Row from '../components/Row';
+// import Row from '../components/Row';
+import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col'
-// import Nav from 'react-bootstrap/Nav'
-// import AboutImage from "../assets/images/rva2.jpg"
 
 import resume from "../assets/images/pdf-icon.jpg";
 import gmail from "../assets/images/gmail.png";
 import mobile from "../assets/images/mobile-icon.jpg";
 // import linkedin from "../assets/images/linkedin.png";
+import Navbar from "../components/Navbar";
+
 
 
 function About (){
     return (
         <Container >
             <Row>
+                <Col xs lg="2" >
+                <Navbar />
+                </Col>
+                <Col>
                 <Header className="animate__animated animate__fadeIn" id="intro">
                     <h1 className="display-5">Giovanni Cordova</h1>
                     <p className="lead">I'm a Software QA Engineer looking to move into Software Development. I have
@@ -36,6 +41,7 @@ function About (){
                             </Col>
                         </Row>
                 </Header>
+                </Col>
             </Row>
         </Container>
      )
