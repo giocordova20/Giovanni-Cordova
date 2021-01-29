@@ -5,16 +5,14 @@ import "./style.css";
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar() {
 
-    // const [aboutWorkLink, setAboutWork] = useState("");
-    const [aboutWorkLink, setAboutWork] = useState({ path: "", label: ""});
-
+    const [aboutWorkLink, setAboutWork] = useState("/mywork");
 
   return (
     // <nav className="navbar navbar-expand-lg  navbar-light">
       <div>
-        <ul className="navbar-nav">
+        <ul className="nav">
           <li className="nav-item"
-               onClick={() => setAboutWork(window.location.pathname === "/" ? "mywork" : "/")} > 
+               onClick={() => setAboutWork(window.location.pathname === "/mywork" ? "/" : "/mywork")} > 
             <Link
               to={aboutWorkLink}
             >

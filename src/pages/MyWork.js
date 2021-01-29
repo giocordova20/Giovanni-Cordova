@@ -5,31 +5,30 @@ import Row from "../components/Row";
 import Col from "react-bootstrap/Col"
 // import Nav from 'react-bootstrap/Nav'
 import Nav from "../components/Navbar"
+import AppList from "../assets/applist.json"
 
 function MyWork (props){
     return (
         <Container >
             <Row>
-                <Header className="animate__animated animate__fadeIn" id="mywork-jumbo" style={{background: "none"}}>
-                    <h1 className="display-5">My Work</h1>
-                    <p className="lead">Take a look at some of my work. These applications show individual work as well as group projects.</p>
-                        <Row className="justify-content-md-center">
-                            {/* <Col >
-                                <a href="/" className="btn btn-outline-dark my-2">About Me</a>
-                            </Col >
-                            <Col >
-                                <a href="https://github.com/giocordova20" target="_blank" rel="noreferrer" className="btn btn-outline-dark my-2">GitHub</a>
-                            </Col>
-                            <Col >
-                                <a href="https://www.linkedin.com/in/giovanni-cordova-aa40b94/" rel="noreferrer" target="_blank" className="btn btn-outline-dark my-2">LinkedIn</a>
-                            </Col> */}
-                            <Nav />
-                        </Row>
-                </Header>
+                <Col md >                
+                    <Header className="animate__animated animate__fadeIn" id="mywork-jumbo" style={{background: "none"}}>
+                        <h1 className="display-5">My Work</h1>
+                        <p className="lead">Take a look at some of my work. These applications show individual work as well as group projects.</p>
+                            <Row className="">
+                                <Col md>
+                                    <Nav />
+                                </Col>
+                            </Row>
+                    </Header>
+                </Col>
+    
             </Row>
             <Row className="album py-5">
                 <Container>
                     <Row>
+                        {console.log({AppList})}
+                        {console.log({props})}
                         {/* {props.applications.map(item => (
                             <div class="col-md-4">
                                 <div class="card mb-4 shadow-sm">

@@ -15,13 +15,13 @@ import Navbar from "../components/Navbar";
 
 function About (){
     return (
-        <Container >
+        <Container fluid>
             <Row>
-                <Col xs lg="2" >
-                <Navbar />
+                <Col md style={{marginLeft: "3rem", marginTop: "3rem", fontWeight:"bold" }}>
+                    <Navbar className="justify-content-center"/>
                 </Col>
-                <Col>
-                <Header className="animate__animated animate__fadeIn" id="intro">
+                <Col md={10} >
+                    <Header className="animate__animated animate__fadeIn" style={{background: "rgb(233, 236, 239, .6)"}} id="intro">
                     <h1 className="display-5">Giovanni Cordova</h1>
                     <p className="lead">I'm a Software QA Engineer looking to move into Software Development. I have
                         worked in QA for over 18 years and have experience with the Software Development Life 
