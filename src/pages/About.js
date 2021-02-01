@@ -18,7 +18,7 @@ function About (){
         <Container fluid>
             <Row>
                 <Col md style={{marginLeft: "3rem", marginTop: "3rem", fontWeight:"bold" }}>
-                    <Navbar className="justify-content-center"/>
+                    <Navbar/>
                 </Col>
                 <Col md={10} >
                     <Header className="animate__animated animate__fadeIn" style={{background: "rgb(233, 236, 239, .6)"}} id="intro">

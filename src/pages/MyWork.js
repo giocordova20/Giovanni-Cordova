@@ -3,10 +3,8 @@ import Header from "../components/Header";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "react-bootstrap/Col";
-// import Nav from 'react-bootstrap/Nav'
 import Nav from "../components/Navbar";
 import AppList from "../assets/applist.json";
-// import AppImage from "../assets/images/";
 
 
 function MyWork (){
@@ -17,9 +15,9 @@ function MyWork (){
                     <Header className="animate__animated animate__fadeIn" id="mywork-jumbo" style={{background: "none"}}>
                         <h1 className="display-5">My Work</h1>
                         <p className="lead">Take a look at some of my work. These applications show individual work as well as group projects.</p>
-                            <Row className="">
+                            <Row>
                                 <Col md>
-                                    <Nav />
+                                    <Nav className="btn"/>
                                 </Col>
                             </Row>
                     </Header>
@@ -29,7 +27,7 @@ function MyWork (){
             <Row className="album py-5">
                 <Container>
                     <Row>
-                        {console.log({AppList})}
+                        {/* {console.log({AppList})} */}
 
                         {AppList.map((item, index) => (
                             <div className="col-md-4" key={index}>
