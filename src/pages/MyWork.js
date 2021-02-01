@@ -2,12 +2,14 @@ import React from "react";
 import Header from "../components/Header";
 import Container from "../components/Container";
 import Row from "../components/Row";
-import Col from "react-bootstrap/Col"
+import Col from "react-bootstrap/Col";
 // import Nav from 'react-bootstrap/Nav'
-import Nav from "../components/Navbar"
-import AppList from "../assets/applist.json"
+import Nav from "../components/Navbar";
+import AppList from "../assets/applist.json";
+// import AppImage from "../assets/images/";
 
-function MyWork (props){
+
+function MyWork (){
     return (
         <Container >
             <Row>
@@ -28,25 +30,27 @@ function MyWork (props){
                 <Container>
                     <Row>
                         {console.log({AppList})}
-                        {console.log({props})}
-                        {/* {props.applications.map(item => (
-                            <div class="col-md-4">
-                                <div class="card mb-4 shadow-sm">
-                                    <img class="card-img-top" width="100%" height="225" src="{{appImageLocation}}" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"></img>
-                                    <div class="card-body">
-                                        <h5 class="card-title text-center">{{appName}}</h5>
-                                        <p class="card-text">{{appDescription}}</p>
-                                        <div class="d-flex justify-content-center ">
-                                            <div class="btn">
-                                                <a role="button" class="btn my-1 btn-sm btn-outline-info" href="{{appLink}}" target="_blank">Open Application</a>
-                                                <a role="button" class="btn btn-sm btn-outline-info" href="{{gitRepository}}" target="_blank" >View the Code</a>
+
+                        {AppList.map((item, index) => (
+                            <div className="col-md-4" key={index}>
+                                <div className="card mb-4 shadow-sm">
+                                    <img className="card-img-top" width="100%" height="225" src={(`../assets/images/${item.appImageLocation}.gif` )} alt={item.appName} preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+                                    <div className="card-body">
+                                        <h5 className="card-title text-center">{item.appName}</h5>
+                                        <p className="card-text">{item.appDescription}</p>
+                                        <div className="d-flex justify-content-center ">
+                                            <div className="btn">
+                                                <a role="button" className="btn my-1 btn-sm btn-outline-info" href={item.appLink} target="_blank" rel="noreferrer">Open Application</a>
+                                                <a role="button" className="btn btn-sm btn-outline-info" href={item.gitRepository} target="_blank" rel="noreferrer">View the Code</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                           </div>
 
-                        ))} */}
+                        ))}
+
+
                     </Row>
                 </Container>
 
