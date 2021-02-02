@@ -8,7 +8,6 @@ function Navbar() {
     const [aboutWorkLink, setAboutWork] = useState("/mywork");
 
   return (
-    // <nav className="navbar navbar-expand-lg  navbar-light">
       <div>
         <ul className="nav" style={{marginBottom: "2rem"}}>
           <li className="nav-item"> 
@@ -37,7 +36,6 @@ function Navbar() {
           </li>
         </ul>
       </div>
-    // </nav>
   );
 }
 
