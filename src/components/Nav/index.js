@@ -11,12 +11,20 @@ function Navbar() {
     // <nav className="navbar navbar-expand-lg  navbar-light">
       <div>
         <ul className="nav">
+          <li className="nav-item"> 
+            <Link
+              to="/"
+            >
+              About Me
+            </Link>
+          </li>
+
           <li className="nav-item"
                onClick={() => setAboutWork(window.location.pathname === "/mywork" ? "/" : "/mywork")} > 
             <Link
               to={aboutWorkLink}
             >
-              {window.location.pathname === "/" ? "My Work " : "About Me "}
+              My Work
             </Link>
           </li>
 
@@ -27,7 +35,6 @@ function Navbar() {
           <li className="nav-item" >
             <a href="https://www.linkedin.com/in/giovanni-cordova-aa40b94/" rel="noreferrer" target="_blank">LinkedIn</a>
           </li>
-
         </ul>
       </div>
     // </nav>

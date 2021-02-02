@@ -11,7 +11,7 @@ import gmail from "../assets/images/gmail.png";
 // import gmail from "../../assets/images/gmail.png";
 import mobile from "../assets/images/mobile-icon.jpg";
 // import linkedin from "../assets/images/linkedin.png";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/Nav";
 
 
 

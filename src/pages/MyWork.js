@@ -4,7 +4,7 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 // import Col from "react-bootstrap/Col";
 import Col from "../components/Col";
-import Nav from "../components/Navbar";
+import Navbar from "../components/Nav";
 // import AppList from "../assets/applist.json";
 import AppList from "./applist.json";
 
@@ -13,13 +13,13 @@ function MyWork (){
     return (
         <Container >
             <Row>
-                <Col size="md" >                
+                <Col size="md" style={{textAlign: "center", fontWeight:"bold" }}>                
                     <Header className="animate__animated animate__fadeIn" id="mywork-jumbo" style={{background: "rgb(233, 236, 239, 0)", marginTop: "2rem"}}>
                         <h1 className="display-5">My Work</h1>
                         <p className="lead">Take a look at some of my work. These applications show individual work as well as group projects.</p>
                             <Row>
-                                <Col size="md">
-                                    <Nav className="btn"/>
+                                <Col size="md" style={{textAlign: "center"}}>
+                                    <Navbar style={{paddingBottom: "2rem"}}/>
                                 </Col>
                             </Row>
                     </Header>
@@ -29,7 +29,6 @@ function MyWork (){
             <Row className="album py-5">
                 <Container>
                     <Row>
-                        {/* {console.log({AppList})} */}
 
                         {AppList.map((item, index) => (
                             <div className="col-md-4" key={index}>
