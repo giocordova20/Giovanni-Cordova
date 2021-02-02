@@ -11,7 +11,7 @@ import AppList from "./applist.json";
 
 function MyWork (){
     return (
-        <Container >
+        <Container>
             <Row>
                 <Col size="md" style={{textAlign: "center", fontWeight:"bold" }}>                
                     <Header className="animate__animated animate__fadeIn" id="mywork-jumbo" style={{background: "rgb(233, 236, 239, 0)", marginTop: "2rem"}}>
@@ -29,7 +29,6 @@ function MyWork (){
             <Row className="album py-5">
                 <Container>
                     <Row>
-
                         {AppList.map((item, index) => (
                             <div className="col-md-4" key={index}>
                                 <div className="card mb-4 shadow-sm">
@@ -46,13 +45,9 @@ function MyWork (){
                                     </div>
                                 </div>
                           </div>
-
                         ))}
-
-
                     </Row>
                 </Container>
-
             </Row>
         </Container>
      )

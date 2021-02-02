@@ -16,25 +16,15 @@ function App() {
 
   return (
     <Router>
-
       <div style={{backgroundImage: `url( ${MyWorkImage} )`, backgroundSize: "cover",
             position: "relative", height:"100vh", backgroundColor: "#101446"}}>
-
-        {/* <Navbar /> */}
         <Wrapper>
           <Route exact path="/" component={About} />
           <Route exact path="/about" component={About} />
-          {/* <Route exact path="/mywork" component={MyWork} /> */}
           <Route exact path="/mywork" component={MyWork} />
         </Wrapper>
-        {/* <Footer /> */}
       </div>
     </Router>
-
-
-
-
-
   );
 }
 
