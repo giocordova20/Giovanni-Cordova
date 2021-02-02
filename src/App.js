@@ -8,7 +8,7 @@ import MyWork from "./pages/MyWork";
 // import Navbar from "./components/Navbar";
 import Wrapper from "./components/Wrapper";
 
-import MyWorkImage from "./assets/images/rva.jpg"
+import MyWorkImage from "./rva.jpg"
 // import AboutImage from "./assets/images/rva2.jpg"
 
 

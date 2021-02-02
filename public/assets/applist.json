@@ -1,7 +1,7 @@
 [{
         "appImageLocation": "Shotify",
         "appName": "Shotify",
-        "appDescription": "Taking the POWER HOUR classic to the next level by incorporating Spotify. Create your playlist of 60 songs and you're ready for a good time. The app includes a family friendly UI for those only interested in music.",
+        "appDescription": "Taking the POWER HOUR classic to the next level by incorporating Spotify. Create your playlist of 60 songs and you're ready for a good time. The app includes a family friendly version.",
         "appLink": "https://shotify-music-player.herokuapp.com/",
         "gitRepository": "https://github.com/giocordova20/project2"
       }, {

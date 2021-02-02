@@ -2,21 +2,23 @@ import React from "react";
 import Header from "../components/Header";
 import Container from "../components/Container";
 import Row from "../components/Row";
-import Col from "react-bootstrap/Col";
+// import Col from "react-bootstrap/Col";
+import Col from "../components/Col";
 import Nav from "../components/Navbar";
-import AppList from "../assets/applist.json";
+// import AppList from "../assets/applist.json";
+import AppList from "./applist.json";
 
 
 function MyWork (){
     return (
         <Container >
             <Row>
-                <Col md >                
-                    <Header className="animate__animated animate__fadeIn" id="mywork-jumbo" style={{background: "none"}}>
+                <Col size="md" >                
+                    <Header className="animate__animated animate__fadeIn" id="mywork-jumbo" style={{background: "rgb(233, 236, 239, 0)", marginTop: "2rem"}}>
                         <h1 className="display-5">My Work</h1>
                         <p className="lead">Take a look at some of my work. These applications show individual work as well as group projects.</p>
                             <Row>
-                                <Col md>
+                                <Col size="md">
                                     <Nav className="btn"/>
                                 </Col>
                             </Row>
