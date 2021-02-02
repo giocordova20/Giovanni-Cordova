@@ -20,7 +20,7 @@ function About (){
         <Container fluid>
             <Row>
                 {/* <Col md style={{marginLeft: "3rem", marginTop: "3rem", fontWeight:"bold" }}> */}
-                <Col size="md-2" style={{marginLeft: "3rem", marginTop: "3rem", fontWeight:"bold" }}>
+                <Col size="md-2" style={{marginTop: "3rem", fontWeight:"bold" }}>
                     <Navbar background={"rgb(233, 236, 239, .6)"} marginTop={"2rem"}/>
                 </Col>
                 {/* <Col md={10} > */}
