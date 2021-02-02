@@ -19,7 +19,7 @@ function MyWork (){
                         <p className="lead">Take a look at some of my work. These applications show individual work as well as group projects.</p>
                             <Row>
                                 <Col size="md" style={{textAlign: "center"}}>
-                                    <Navbar style={{paddingBottom: "2rem"}}/>
+                                    <Navbar />
                                 </Col>
                             </Row>
                     </Header>
@@ -28,7 +28,7 @@ function MyWork (){
             </Row>
             <Row className="album py-5">
                 <Container>
-                    <Row>
+                    <Row >
                         {AppList.map((item, index) => (
                             <div className="col-md-4" key={index}>
                                 <div className="card mb-4 shadow-sm">

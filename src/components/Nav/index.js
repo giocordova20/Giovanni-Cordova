@@ -10,7 +10,7 @@ function Navbar() {
   return (
     // <nav className="navbar navbar-expand-lg  navbar-light">
       <div>
-        <ul className="nav">
+        <ul className="nav" style={{marginBottom: "2rem"}}>
           <li className="nav-item"> 
             <Link
               to="/"
